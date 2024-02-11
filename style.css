@@ -1,0 +1,60 @@
+img {
+    clip-path: circle(50% at center);
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: crimson;
+    color: white;
+    padding: 2.5% 5%;
+    z-index: 2;
+}
+main {
+    margin: 15% 0% 3% 0%;
+}
+#gal {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+#index {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cat {
+    display: flex;
+    padding: 0% 5%;
+    margin-top: 6%;
+}
+#columnR {
+    margin-top: .66%;
+}
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color:darkred;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+footer {
+    text-align: right;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+}
+h3 {
+    padding: 0% 3%;
+}
+.head_a {
+    color: white;
+}
+.sub {
+    display: flex;
+    justify-content: center;
+}
